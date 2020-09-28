@@ -1,6 +1,6 @@
 print("Title of program: CCA Personality Test")
 print()
-print("Welcome! Please answer the following questions truthfully to your own preferences and I will suggest a CCA which might be suitable for you based on your personality and your interests.")
+print("Welcome! Please answer the following questions truthfully according to your own preferences and I will suggest a CCA which might be suitable for you based on your personality and your interests.")
 print("Please answer the questions with numbers 1 - 5, where 1 is strongly disagree and 5 is strongly agree.")
 print()
 
