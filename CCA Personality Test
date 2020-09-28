@@ -4,19 +4,14 @@ print("Welcome! Please answer the following questions truthfully to your own pre
 print("Please answer the questions with numbers 1 - 5, where 1 is strongly disagree and 5 is strongly agree.")
 print()
 
-Com1 = input("I enjoy building and fixing things.")
+Com1 = input("I enjoy coding and computing lessons.")
+Bball1 = input("I love to stay active!")
+Orchestra1 = input("I love to play musical instruments.")
+Drama1 = input("I like to act and perform.")
 
-Outdoor1 = input("I'll go crazy if I do not go out of the house for the whole day.")
-
-Orchestra1 = input("I love music.")
-
-tech2 = input("I know how to build apps and websites.")
-
-outdoor2 = input("I'm good with tying knots and ropes.")
-
-music2 = input("I play a musical instrument well.")
-
-tech3 = input("I enjoy creating artworks when I am free.")
+Com2 = input("I'm good at coding and helping others solve computing problems.")
+Orchestra2 = input("I play at least one musical instrument well.")
+Drama2 = input("I want to perform in front of people.")
 
 outdoor3 = input("I have experiene in partcipating in art competitions.")
 
