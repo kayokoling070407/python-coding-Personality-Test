@@ -10,41 +10,38 @@ Orchestra1 = input("I love to play musical instruments.")
 Drama1 = input("I like to act and perform.")
 
 Com2 = input("I'm good at coding and helping others solve computing problems.")
+Bball2 = input("I love to play sports!")
 Orchestra2 = input("I play at least one musical instrument well.")
 Drama2 = input("I want to perform in front of people.")
 
-outdoor3 = input("I have experiene in partcipating in art competitions.")
+Com3 = input("I have a lot of experience and is confident in computing.")
+Bball3 = input("I like to run and play sports with my friends.")
+Orchestra3 = input("I like to listen to chinese music.")
+Drama3 = input("I like to handle with props, music, lights etc backstage.")
 
-music3 = input("I can see shapes and colours everywhere I go.")
+Com4 = input("I have participated in at least 1 computing competition before/always wanted to participate in computing competitions.")
+Bball4 = input("I enjoy being competitive and like to win.")
+Orchestra4 = input("I feel calm and relaxed when I listen to an orchestra.")
+Drama4 = input("I enjoy watching plays and dramas.")
 
-tech4 = input("I listen to chinese music often.")
-
-outdoor4 = input("I feel calm and relaxed when I listen to an orchestra play music.")
-
-music4 = input("I hope to be part of an orchestra.")
-
-tech5 = input("I like watching plays and dramas.")
-
-outdoor5 = input("I enjoy conversing with others in mandarin.")
-
-music5 = input("I like working with props, music and lights backstage.")
+Com5 = input("I hope to join Infocomm Club.")
+Bball5 = input("I hope to be in a Basketball team.")
+Orchestra5 = input("I hope to be part of an Orchestra.")
+Drama5 = input("I hope to be in Drama Club.")
 
 
-tech_final = int(tech1) + int(tech2) + int(tech3)
-outdoor_final = int(outdoor1) + int(outdoor2) + int(outdoor3)
-music_final = int(music1) + int(music2) + int(music3)
+Com_final = int(Com1) + int(Com2) + int(Com3) + int(Com4) + int(Com5)
+Bball_final = int(Bball1) + int(Bball2) + int(Bball3) + int(Bball4) + int(Bball5)
+Orchestra_final = int(Orchestra1) + int(Orchestra2) + int(Orchestra3) + int(Orchestra4) + int(Orchestra5)
+Drama_final = int(Drama1)+ int(Drama2)+ int(Drama3)+ int(Drama4)+ int(Drama5)
 
 print()
 
-if tech_final > outdoor_final and tech_final > music_final:
-  print("You might be suitable for Infocomm club!")
-if outdoor_final > music_final:
-  print("You might be stuiable for ODAC!")
-if music_final > outdoor_final:
-  print("You might be suitable for Band!")
-if tech_final == outdoor_final :
-  print("You might be suitable for Art Club!")
-if outdoor_final == tech_final or outdoor_final == music_final: 
-  print("You might be suitable for Chinese Orchestra!")
-if music_final > tech_final and music_final > outdoor_final: 
-  print("You might be suitable for Chinese Drama!")
+if Com_final > Bball_final and Com_final > Orchestra_final and Com_final > Drama_final:
+  print("Based on your answers you have chosen, it's a high chance you are suitable for Infocomm club!")
+if Bball_final > Com_final and Bball_final > Orchestra_final and Bball_final > Drama_final:
+  print("Based on your answers you have chosen, it's a high chance you are suitable for Basketball!")
+if Orchestra_final > Bball_final and Orchestra_final > Com_final and Orchestra_final > Drama_final:
+  print("Based on your answers you have chosen, it's a high chance you are suitable for Chinese Orchestra!")
+if Drama_final > Bball_final and Drama_final > Orchestra_final and Drama_final > Com_final:
+  print("Based on your answers you have chosen, it's a high chance you are suitable for Drama Society!")
