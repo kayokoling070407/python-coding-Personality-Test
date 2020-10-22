@@ -34,6 +34,11 @@ Orchestra5 = input("I hope to be part of an Orchestra.")
 Drama5 = input("I hope to be in Drama Club.")
 Art5 = input("I hope to express myself through art even more in Art Club.")
 
+Com5 = input("I enjoy working with computers.")
+Bball5 = input("I enjoy working in a team.")
+Orchestra5 = input("I enjoy music.")
+Drama5 = input("I enjoy acting.")
+Art5 = input("I enjoy using colors.")
 
 Com_final = int(Com1) + int(Com2) + int(Com3) + int(Com4) + int(Com5)
 Bball_final = int(Bball1) + int(Bball2) + int(Bball3) + int(Bball4) + int(Bball5)
